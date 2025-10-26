@@ -1,9 +1,6 @@
-{{- if not .Site.Params.hideMainMenu }}
+{{- partial "theme-toggle.html" . }}
 <header class="header">
   <nav class="nav">
-    {{- block "nav" . -}}{{- end }}
+    {{- /* Menú vacío */ -}}
   </nav>
 </header>
-{{- end }}
-
-{{- partial "theme-toggle.html" . }}
