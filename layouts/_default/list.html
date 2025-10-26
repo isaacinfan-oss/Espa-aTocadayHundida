@@ -1,0 +1,5 @@
+{{ define "main" }}
+  {{ range where .Pages "Section" "posts" }}
+    {{ .Render "summary" }}
+  {{ end }}
+{{ end }}

@@ -1,5 +1,8 @@
 <header class="header">
-  <nav class="nav">
-    <!-- Menú vacío -->
-  </nav>
+  <div class="container">
+    <div class="header-content">
+      <a href="/" class="header-title">{{ .Site.Title }}</a>
+      {{- partial "theme-toggle.html" . }}
+    </div>
+  </div>
 </header>
