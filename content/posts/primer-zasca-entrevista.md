@@ -1,15 +1,19 @@
 +++
-date = '2025-10-26T02:36:55+01:00'
+date = '2025-10-26T03:19:00+02:00'
 draft = false
-title = 'PRUEBA FINAL: Video OK'
+title = 'PRUEBA FINAL: Forzado de Iframe R2'
 tags = ["prueba", "testing"]
 +++
 
-**Contexto:** ¡Vamos a comprobar la conexión final!
+**Contexto:** Si el iframe funciona, ¡tu flujo está listo!
 
-{{< figure src="https://pub-240094f2e1ec4a01996b0538dbaed474.r2.dev/prueba-comprimida.mp4" type="video/mp4" width="100%" alt="Clip de video político" >}}
+<iframe src="https://pub-240094f2e1ec4a01996b0538dbaed474.r2.dev/prueba-comprimida.mp4" 
+    style="width: 100%; height: 450px; border: none;" 
+    allow="autoplay; fullscreen" 
+    frameborder="0">
+</iframe>
 
 ## Prueba de Texto
 
-Si ves el reproductor, hemos ganado.
+Listo para empezar a crear contenido Adsense.
 ---
