@@ -3,25 +3,21 @@ languageCode = "es-es"
 title = "España Tocada y Hundida | Clips y Crítica Política"
 theme = "PaperMod"
 
-# Configuración adicional básica para PaperMod
 [params]
-  defaultTheme = "light"      # Establece el tema fijo a claro
-  ShowThemeButton = false     # DESACTIVA el botón de sol/luna
+  defaultTheme = "light"
+  ShowThemeButton = false
   ShowReadingTime = false
   ShowPostNavButtons = false
   ShowBreadCrumbs = false
-  ShowRssButton = false 
+  ShowRssButton = false
   ShowShareButtons = false
 
-# --- ELIMINADO EL MENU PRINCIPAL (INICIO Y CONTACTO) POR SOLICITUD DEL USUARIO ---
-
-# --- CONFIGURACION DEL MENU DEL PIE DE PÁGINA (FOOTER LEGAL) ---
+# Menú del footer (enlaces legales)
 [[menu.footer]]
     identifier = "aviso-legal-ft"
     name = "Aviso Legal"
     url = "/legal/aviso-legal/"
     weight = 1
-
 [[menu.footer]]
     identifier = "privacidad-ft"
     name = "Privacidad"
