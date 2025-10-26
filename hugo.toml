@@ -1,0 +1,12 @@
+baseURL = "https://espanatocadayhundida.es/"
+languageCode = "es-es"
+title = "España Tocada y Hundida | Clips y Crítica Política"
+theme = "PaperMod"
+
+# Configuración adicional que ayuda a Hugo a saber qué hacer:
+[params]
+  defaultTheme = "auto"
+  ShowReadingTime = false
+  ShowPostNavButtons = false
+  ShowBreadCrumbs = false
+  ShowRssButton = false
