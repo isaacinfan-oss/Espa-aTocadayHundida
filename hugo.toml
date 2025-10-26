@@ -10,3 +10,28 @@ theme = "PaperMod"
   ShowPostNavButtons = false
   ShowBreadCrumbs = false
   ShowRssButton = false
+
+# --- CONFIGURACION DEL MENU PRINCIPAL (Para Adsense) ---
+[[menu.main]]
+    identifier = "home"
+    name = "Inicio"
+    url = "/"
+    weight = 1
+
+[[menu.main]]
+    identifier = "aviso-legal"
+    name = "Aviso Legal"
+    url = "/legal/aviso-legal/"
+    weight = 50
+
+[[menu.main]]
+    identifier = "privacidad"
+    name = "Privacidad"
+    url = "/legal/politica-privacidad/"
+    weight = 51
+
+[[menu.main]]
+    identifier = "contacto"
+    name = "Contacto"
+    url = "/legal/contacto/"
+    weight = 52
