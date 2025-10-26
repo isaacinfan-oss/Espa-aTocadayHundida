@@ -5,25 +5,15 @@ theme = "PaperMod"
 
 # Configuración adicional básica para PaperMod
 [params]
-  defaultTheme = "auto"
+  defaultTheme = "light"      # Establece el tema fijo a claro
+  ShowThemeButton = false     # DESACTIVA el botón de sol/luna
   ShowReadingTime = false
   ShowPostNavButtons = false
   ShowBreadCrumbs = false
   ShowRssButton = false 
   ShowShareButtons = false
 
-# --- CONFIGURACION DEL MENU PRINCIPAL (HEADER LIMPIO) ---
-[[menu.main]]
-    identifier = "home"
-    name = "Inicio"
-    url = "/"
-    weight = 1
-
-[[menu.main]]
-    identifier = "contacto"
-    name = "Contacto"
-    url = "/legal/contacto/"
-    weight = 3
+# --- ELIMINADO EL MENU PRINCIPAL (INICIO Y CONTACTO) POR SOLICITUD DEL USUARIO ---
 
 # --- CONFIGURACION DEL MENU DEL PIE DE PÁGINA (FOOTER LEGAL) ---
 [[menu.footer]]
