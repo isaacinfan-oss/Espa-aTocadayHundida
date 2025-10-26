@@ -1,0 +1,13 @@
+{{ define "main" }}
+<header>
+    {{- partial "page_header.html" . }}
+</header>
+
+{{- range .Pages }}
+    {{- if not .Params.private }}
+    {{- partial "post_card.html" . }}
+    {{- end }}
+{{- end }}
+
+{{- partial "pagination.html" . }}
+{{ end }}
