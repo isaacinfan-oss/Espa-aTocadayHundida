@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" dir="auto">
+<html lang="es" dir="auto">
 
 <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -18,7 +18,7 @@
 <link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" hreflang="en" href="http://localhost:1313/404.html">
+<link rel="alternate" hreflang="es" href="http://localhost:1313/404.html">
 <noscript>
     <style>
         #theme-toggle,
@@ -30,10 +30,10 @@
 </noscript>
 </head>
 
-<body class="list" id="top">
+<body class="list dark" id="top">
 <script>
-    if (localStorage.getItem("pref-theme") === "dark") {
-        document.body.classList.add('dark');
+    if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
     }
 
 </script>
@@ -66,6 +66,26 @@
             </div>
         </div>
         <ul id="menu">
+            <li>
+                <a href="http://localhost:1313/" title="Inicio">
+                    <span>Inicio</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/aviso-legal/" title="Aviso Legal">
+                    <span>Aviso Legal</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/privacidad/" title="Privacidad">
+                    <span>Privacidad</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/contacto/" title="Contacto">
+                    <span>Contacto</span>
+                </a>
+            </li>
         </ul>
     </nav>
 </header>
@@ -74,16 +94,14 @@
     </main>
     <footer class="footer">
     <div style="display: flex; justify-content: space-between; align-items: center; width: 100%; padding: 10px 20px;">
-        
         <span>&copy; 2025 <a href="http://localhost:1313/">España Tocada y Hundida | Clips y Crítica Política</a></span>
-        
         <div style="display: flex; gap: 15px; font-size: 0.9em;">
             <a href="/legal/aviso-legal/">Aviso Legal</a>
             <a href="/legal/politica-privacidad/">Privacidad</a>
         </div>
-        
     </div>
 </footer>
+
 </body>
 
 </html>

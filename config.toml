@@ -1,0 +1,56 @@
+baseURL = "https://espa-atocadayhundida.pages.dev/"
+title = "España Tocada y Hundida | Clips y Crítica Política"
+languageCode = "es-es"
+theme = "PaperMod"
+paginate = 10
+enableRobotsTXT = true
+
+[build]
+  publishDir = "public"
+  command = "hugo --minify"
+
+[params]
+  defaultTheme = "dark"
+  disableThemeToggle = false
+  ShowBreadCrumbs = true
+  ShowReadingTime = true
+  ShowShareButtons = true
+  ShowPostNavLinks = true
+  ShowCodeCopyButtons = true
+  hideFooter = false
+  mainSections = ["clips", "critica"]
+  homeInfoParams = true
+
+[menu]
+  [[menu.main]]
+    identifier = "inicio"
+    name = "Inicio"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    identifier = "clips"
+    name = "Clips"
+    url = "/clips/"
+    weight = 2
+  [[menu.main]]
+    identifier = "critica"
+    name = "Crítica"
+    url = "/critica/"
+    weight = 3
+  [[menu.main]]
+    identifier = "sobre-mi"
+    name = "Sobre mí"
+    url = "/about/"
+    weight = 4
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+  section = ["HTML", "RSS"]
+  page = ["HTML"]
+
+[params.homeInfoParams]
+  Title = "Bienvenido a **España Tocada y Hundida**"
+  Content = """
+  Un espacio para **clips virales** y **crítica política sin filtros**.
+  Suscríbete para no perderte nada.
+  """
