@@ -2,13 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://espa-atocadayhundida.pages.dev/</loc>
+    <lastmod>2025-10-27T10:00:00+02:00</lastmod>
+  </url><url>
+    <loc>https://espa-atocadayhundida.pages.dev/posts/</loc>
+    <lastmod>2025-10-27T10:00:00+02:00</lastmod>
+  </url><url>
     <loc>https://espa-atocadayhundida.pages.dev/legal/aviso-legal/</loc>
     <lastmod>2025-10-26T15:45:00+02:00</lastmod>
   </url><url>
     <loc>https://espa-atocadayhundida.pages.dev/legal/contacto/</loc>
-    <lastmod>2025-10-26T15:45:00+02:00</lastmod>
-  </url><url>
-    <loc>https://espa-atocadayhundida.pages.dev/</loc>
     <lastmod>2025-10-26T15:45:00+02:00</lastmod>
   </url><url>
     <loc>https://espa-atocadayhundida.pages.dev/legal/</loc>
@@ -22,8 +25,6 @@
     <loc>https://espa-atocadayhundida.pages.dev/posts/analisis-20251026223903/</loc>
   </url><url>
     <loc>https://espa-atocadayhundida.pages.dev/categories/</loc>
-  </url><url>
-    <loc>https://espa-atocadayhundida.pages.dev/posts/</loc>
   </url><url>
     <loc>https://espa-atocadayhundida.pages.dev/tags/</loc>
   </url>
