@@ -1,42 +1,40 @@
 baseURL = 'https://espa-atocadayhundida.pages.dev/'
-title = 'España Tocada y Hundida | Clips y Crítica Política'
+languageCode = 'es-es'
+title = 'España Tocada y Hundida'
 theme = 'PaperMod'
-defaultContentLanguage = 'es'
 
 [params]
-  defaultTheme = 'dark'
-  disableThemeToggle = false
-  # Configuración visual básica para PaperMod
+  defaultTheme = 'auto'
+  ShowThemeButton = true
   ShowReadingTime = false
-  ShowPostNavLinks = true
-  ShowShareButtons = true
-  ShowPostMetadata = true
-  ShowBreadCrumbs = true
-  ShowCodeCopyButtons = true
-  ShowToc = true
+  ShowPostNavLinks = false
+  ShowBreadCrumbs = false
+  ShowShareButtons = false
+  ShowCodeCopyButtons = false
+  disableSpecial1stPost = true
+  disableScrollToTop = false
+  disableThemeToggle = false
+  hideFooter = false
+  showPoweredBy = false
+  profileMode = { enabled = false }  # 👈 desactiva totalmente el bloque central
+  homeInfoParams = {}                # 👈 asegura que no se muestre contenido
 
-# FIX PARA LA HOME (SOLO LISTAR ARTÍCULOS)
-[outputs]
-  home = ["HTML", "RSS"]
-
-[index]
-  listPages = true
-
-# Configuración del menú para asegurar que los enlaces a las páginas estáticas estén correctos
+# 🚫 Sin menú
 [menu]
-  [[menu.main]]
-    name = 'Inicio'
-    url = '/'
-    weight = 10
-  [[menu.main]]
-    name = 'Aviso Legal'
-    url = '/aviso-legal/'
-    weight = 20
-  [[menu.main]]
-    name = 'Privacidad'
-    url = '/privacidad/'
-    weight = 30
-  [[menu.main]]
-    name = 'Contacto'
-    url = '/contacto/'
-    weight = 40
+
+# ⚓ Footer personalizado
+[params.footer]
+  copyright = "© 2025 España Tocada y Hundida"
+
+[[params.footer.links]]
+  name = "Aviso Legal"
+  url = "/aviso-legal/"
+
+[[params.footer.links]]
+  name = "Política de Privacidad"
+  url = "/politica-de-privacidad/"
+
+[[params.footer.links]]
+  name = "Contacto"
+  url = "/contacto/"
+

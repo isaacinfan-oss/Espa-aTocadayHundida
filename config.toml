@@ -8,8 +8,8 @@ ignoreLogs = ["warning-goldmark-raw-html"]
 
 [params]
   defaultTheme = "dark"
-  disableThemeToggle = false  # Botón oscuro/claro ACTIVADO
-  hideFooter = false           # Footer visible
+  disableThemeToggle = false
+  hideFooter = false
   ShowBreadCrumbs = false
   ShowReadingTime = true
   ShowShareButtons = true
