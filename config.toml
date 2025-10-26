@@ -3,7 +3,6 @@ title = "España Tocada y Hundida"
 languageCode = "es-es"
 theme = "PaperMod"
 paginate = 10
-enableRobotsTXT = true
 
 [params]
   defaultTheme = "dark"
@@ -13,12 +12,12 @@ enableRobotsTXT = true
   ShowReadingTime = false
   ShowShareButtons = false
   ShowPostNavLinks = false
-  mainSections = ["posts"]  # Solo muestra posts en home
-  hideMainMenu = true       # Oculta menú principal
+  mainSections = ["posts"]
+  hideMainMenu = true
 
 [outputs]
-  home = ["HTML", "RSS"]
+  home = ["HTML"]
   page = ["HTML"]
 
 [build]
-  publishDir = "public"
+  writeStats = false
