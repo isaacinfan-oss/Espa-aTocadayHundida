@@ -9,9 +9,8 @@ theme = "PaperMod"
   ShowReadingTime = false
   ShowPostNavButtons = false
   ShowBreadCrumbs = false
-  ShowRssButton = false
+  ShowRssButton = false 
   ShowShareButtons = false
-  ShowRssButton = false
 
 # --- CONFIGURACION DEL MENU PRINCIPAL (HEADER LIMPIO) ---
 [[menu.main]]
