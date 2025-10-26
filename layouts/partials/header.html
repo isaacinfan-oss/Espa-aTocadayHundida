@@ -1,5 +1,9 @@
-{{- partial "theme-toggle.html" . }}  <!-- Botón oscuro/claro -->
+{{- if not .Site.Params.hideMainMenu }}
 <header class="header">
-  {{- /* Menú vacío (oculto) */ -}}
-  <nav class="nav"></nav>
+  <nav class="nav">
+    {{- block "nav" . -}}{{- end }}
+  </nav>
 </header>
+{{- end }}
+
+{{- partial "theme-toggle.html" . }}

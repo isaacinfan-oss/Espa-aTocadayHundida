@@ -4,17 +4,18 @@ languageCode = "es-es"
 theme = "PaperMod"
 paginate = 10
 enableRobotsTXT = true
+ignoreLogs = ['warning-goldmark-raw-html']
 
 [params]
   defaultTheme = "dark"
-  disableThemeToggle = false  # Botón de tema oscuro/claro ACTIVADO
+  disableThemeToggle = false  # Botón oscuro/claro ACTIVADO
   hideFooter = false          # Footer RESTAURADO
   ShowBreadCrumbs = false
   ShowReadingTime = true
   ShowShareButtons = true
   ShowPostNavLinks = true
   mainSections = ["posts"]
-  hideMainMenu = true          # Menú OCULTO (como pediste)
+  hideMainMenu = true          # Menú OCULTO
 
 [outputs]
   home = ["HTML", "RSS"]
