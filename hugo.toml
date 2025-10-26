@@ -1,25 +1,42 @@
-baseURL = "https://espanatocadayhundida.es/"
-languageCode = "es-es"
-title = "España Tocada y Hundida | Clips y Crítica Política"
-theme = "PaperMod"
+baseURL = 'https://espa-atocadayhundida.pages.dev/'
+title = 'España Tocada y Hundida | Clips y Crítica Política'
+theme = 'PaperMod'
+defaultContentLanguage = 'es'
 
 [params]
-  defaultTheme = "light"
-  ShowThemeButton = false
+  defaultTheme = 'dark'
+  disableThemeToggle = false
+  # Configuración visual básica para PaperMod
   ShowReadingTime = false
-  ShowPostNavButtons = false
-  ShowBreadCrumbs = false
-  ShowRssButton = false
-  ShowShareButtons = false
+  ShowPostNavLinks = true
+  ShowShareButtons = true
+  ShowPostMetadata = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowToc = true
 
-# Menú del footer (enlaces legales)
-[[menu.footer]]
-    identifier = "aviso-legal-ft"
-    name = "Aviso Legal"
-    url = "/legal/aviso-legal/"
-    weight = 1
-[[menu.footer]]
-    identifier = "privacidad-ft"
-    name = "Privacidad"
-    url = "/legal/politica-privacidad/"
-    weight = 2
+# FIX PARA LA HOME (SOLO LISTAR ARTÍCULOS)
+[outputs]
+  home = ["HTML", "RSS"]
+
+[index]
+  listPages = true
+
+# Configuración del menú para asegurar que los enlaces a las páginas estáticas estén correctos
+[menu]
+  [[menu.main]]
+    name = 'Inicio'
+    url = '/'
+    weight = 10
+  [[menu.main]]
+    name = 'Aviso Legal'
+    url = '/aviso-legal/'
+    weight = 20
+  [[menu.main]]
+    name = 'Privacidad'
+    url = '/privacidad/'
+    weight = 30
+  [[menu.main]]
+    name = 'Contacto'
+    url = '/contacto/'
+    weight = 40
