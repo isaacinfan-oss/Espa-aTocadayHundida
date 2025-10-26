@@ -1,8 +1,23 @@
-+++
-title = "Título por defecto"
-date = 2025-10-26T22:49:17+02:00
 draft = false
+date = "2025-10-26T22:55:08+02:00"
+title = "Título temporal"
++++
+draft = false
+date = "2025-10-26T22:55:08+02:00"
+title = "Título por defecto"
+draft = false
+title = "Título temporal"
+date = 2025-10-26T22:49:17+02:00
+date = "2025-10-26T22:55:08+02:00"
+title = "Título temporal"
+draft = false
+draft = false
+date = "2025-10-26T22:55:08+02:00"
+title = "Título temporal"
 
+draft = false
+date = "2025-10-26T22:55:08+02:00"
+title = "Título temporal"
 +++
 +++
 title = "Título por defecto"

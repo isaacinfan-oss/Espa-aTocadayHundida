@@ -1,23 +1,24 @@
 baseURL = "https://espa-atocadayhundida.pages.dev/"
-title = "España Tocada y Hundida"
+title = "España Tocada y Hundida | Clips y Crítica Política"
 languageCode = "es-es"
 theme = "PaperMod"
 paginate = 10
+enableRobotsTXT = true
 
 [params]
   defaultTheme = "dark"
-  disableThemeToggle = true
-  hideFooter = true
+  disableThemeToggle = false  # Botón de tema oscuro/claro ACTIVADO
+  hideFooter = false          # Footer RESTAURADO
   ShowBreadCrumbs = false
-  ShowReadingTime = false
-  ShowShareButtons = false
-  ShowPostNavLinks = false
+  ShowReadingTime = true
+  ShowShareButtons = true
+  ShowPostNavLinks = true
   mainSections = ["posts"]
-  hideMainMenu = true
+  hideMainMenu = true          # Menú OCULTO (como pediste)
 
 [outputs]
-  home = ["HTML"]
+  home = ["HTML", "RSS"]
   page = ["HTML"]
 
 [build]
-  writeStats = false
+  publishDir = "public"
