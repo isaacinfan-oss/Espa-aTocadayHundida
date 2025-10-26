@@ -3,15 +3,17 @@ languageCode = "es-es"
 title = "España Tocada y Hundida | Clips y Crítica Política"
 theme = "PaperMod"
 
-# Configuración adicional que ayuda a Hugo a saber qué hacer:
+# Configuración adicional básica para PaperMod
 [params]
   defaultTheme = "auto"
   ShowReadingTime = false
   ShowPostNavButtons = false
   ShowBreadCrumbs = false
   ShowRssButton = false
+  ShowShareButtons = false
+  ShowRssButton = false
 
-# --- CONFIGURACION DEL MENU PRINCIPAL (Para Adsense) ---
+# --- CONFIGURACION DEL MENU PRINCIPAL (HEADER LIMPIO) ---
 [[menu.main]]
     identifier = "home"
     name = "Inicio"
@@ -19,19 +21,20 @@ theme = "PaperMod"
     weight = 1
 
 [[menu.main]]
-    identifier = "aviso-legal"
-    name = "Aviso Legal"
-    url = "/legal/aviso-legal/"
-    weight = 50
-
-[[menu.main]]
-    identifier = "privacidad"
-    name = "Privacidad"
-    url = "/legal/politica-privacidad/"
-    weight = 51
-
-[[menu.main]]
     identifier = "contacto"
     name = "Contacto"
     url = "/legal/contacto/"
-    weight = 52
+    weight = 3
+
+# --- CONFIGURACION DEL MENU DEL PIE DE PÁGINA (FOOTER LEGAL) ---
+[[menu.footer]]
+    identifier = "aviso-legal-ft"
+    name = "Aviso Legal"
+    url = "/legal/aviso-legal/"
+    weight = 1
+
+[[menu.footer]]
+    identifier = "privacidad-ft"
+    name = "Privacidad"
+    url = "/legal/politica-privacidad/"
+    weight = 2
