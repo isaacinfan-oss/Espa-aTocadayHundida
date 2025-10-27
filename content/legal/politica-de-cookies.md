@@ -3,9 +3,8 @@ title = "Política de Cookies"
 draft = false
 layout = "single"
 +++
----
 
-# Política de Cookies
+---
 
 ## 1. ¿Qué son las cookies?
 
