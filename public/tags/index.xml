@@ -6,20 +6,76 @@
     <description>Recent content in Tags on España Tocada y Hundida</description>
     <generator>Hugo -- 0.152.2</generator>
     <language>es-es</language>
-    <lastBuildDate>Mon, 27 Oct 2025 00:25:00 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 27 Oct 2025 18:00:00 +0200</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Prueba</title>
-      <link>http://localhost:1313/tags/prueba/</link>
-      <pubDate>Mon, 27 Oct 2025 00:25:00 +0200</pubDate>
-      <guid>http://localhost:1313/tags/prueba/</guid>
+      <title>Actualidad</title>
+      <link>http://localhost:1313/tags/actualidad/</link>
+      <pubDate>Mon, 27 Oct 2025 18:00:00 +0200</pubDate>
+      <guid>http://localhost:1313/tags/actualidad/</guid>
       <description></description>
     </item>
     <item>
-      <title>Video</title>
-      <link>http://localhost:1313/tags/video/</link>
-      <pubDate>Mon, 27 Oct 2025 00:25:00 +0200</pubDate>
-      <guid>http://localhost:1313/tags/video/</guid>
+      <title>Crítica Política</title>
+      <link>http://localhost:1313/tags/cr%C3%ADtica-pol%C3%ADtica/</link>
+      <pubDate>Mon, 27 Oct 2025 18:00:00 +0200</pubDate>
+      <guid>http://localhost:1313/tags/cr%C3%ADtica-pol%C3%ADtica/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Información</title>
+      <link>http://localhost:1313/tags/informaci%C3%B3n/</link>
+      <pubDate>Mon, 27 Oct 2025 18:00:00 +0200</pubDate>
+      <guid>http://localhost:1313/tags/informaci%C3%B3n/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Nacho Abad</title>
+      <link>http://localhost:1313/tags/nacho-abad/</link>
+      <pubDate>Mon, 27 Oct 2025 18:00:00 +0200</pubDate>
+      <guid>http://localhost:1313/tags/nacho-abad/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Noticias</title>
+      <link>http://localhost:1313/tags/noticias/</link>
+      <pubDate>Mon, 27 Oct 2025 18:00:00 +0200</pubDate>
+      <guid>http://localhost:1313/tags/noticias/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Pilar Rahola</title>
+      <link>http://localhost:1313/tags/pilar-rahola/</link>
+      <pubDate>Mon, 27 Oct 2025 18:00:00 +0200</pubDate>
+      <guid>http://localhost:1313/tags/pilar-rahola/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Política</title>
+      <link>http://localhost:1313/tags/pol%C3%ADtica/</link>
+      <pubDate>Mon, 27 Oct 2025 18:00:00 +0200</pubDate>
+      <guid>http://localhost:1313/tags/pol%C3%ADtica/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Televisión</title>
+      <link>http://localhost:1313/tags/televisi%C3%B3n/</link>
+      <pubDate>Mon, 27 Oct 2025 18:00:00 +0200</pubDate>
+      <guid>http://localhost:1313/tags/televisi%C3%B3n/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tertulia</title>
+      <link>http://localhost:1313/tags/tertulia/</link>
+      <pubDate>Mon, 27 Oct 2025 18:00:00 +0200</pubDate>
+      <guid>http://localhost:1313/tags/tertulia/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Zasca</title>
+      <link>http://localhost:1313/tags/zasca/</link>
+      <pubDate>Mon, 27 Oct 2025 18:00:00 +0200</pubDate>
+      <guid>http://localhost:1313/tags/zasca/</guid>
       <description></description>
     </item>
   </channel>
