@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Video on España Tocada y Hundida</title>
+    <link>http://localhost:1313/tags/video/</link>
+    <description>Recent content in Video on España Tocada y Hundida</description>
+    <generator>Hugo -- 0.152.2</generator>
+    <language>es-es</language>
+    <lastBuildDate>Mon, 27 Oct 2025 00:25:00 +0200</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/video/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Prueba 1</title>
+      <link>http://localhost:1313/posts/prueba1/</link>
+      <pubDate>Mon, 27 Oct 2025 00:25:00 +0200</pubDate>
+      <guid>http://localhost:1313/posts/prueba1/</guid>
+      <description>&lt;h2 id=&#34;-video&#34;&gt;🎥 Video&lt;/h2&gt;
+&lt;p&gt;&lt;video
+controls
+preload=&#34;metadata&#34;
+playsinline
+style=&#34;max-width:100%; height:auto; border-radius:12px; box-shadow:0 0 10px rgba(0,0,0,0.15); background:#000;&#34;&gt;
+&lt;source src=&#34;https://pub-240094f2e1ec4a01996b0538dbaed474.r2.dev/prueba-comprimida.mp4&#34; type=&#34;video/mp4&#34;&gt;
+Tu navegador no soporta la reproducción de video.
+&lt;/video&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;análisis-profundo&#34;&gt;Análisis Profundo&lt;/h2&gt;
+&lt;p&gt;Este es un post de prueba para comprobar la integración de vídeo.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

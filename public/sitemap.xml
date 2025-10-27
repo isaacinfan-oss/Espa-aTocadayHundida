@@ -1,1 +1,41 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml"><url><loc>https://espa-atocadayhundida.pages.dev/</loc><lastmod>2025-10-27T10:00:00+02:00</lastmod></url><url><loc>https://espa-atocadayhundida.pages.dev/posts/</loc><lastmod>2025-10-27T10:00:00+02:00</lastmod></url><url><loc>https://espa-atocadayhundida.pages.dev/legal/aviso-legal/</loc><lastmod>2025-10-26T15:45:00+02:00</lastmod></url><url><loc>https://espa-atocadayhundida.pages.dev/legal/contacto/</loc><lastmod>2025-10-26T15:45:00+02:00</lastmod></url><url><loc>https://espa-atocadayhundida.pages.dev/legal/</loc><lastmod>2025-10-26T15:45:00+02:00</lastmod></url><url><loc>https://espa-atocadayhundida.pages.dev/legal/politica-privacidad/</loc><lastmod>2025-10-26T15:45:00+02:00</lastmod></url><url><loc>https://espa-atocadayhundida.pages.dev/posts/analisis-01/</loc></url><url><loc>https://espa-atocadayhundida.pages.dev/posts/analisis-20251026223903/</loc></url><url><loc>https://espa-atocadayhundida.pages.dev/categories/</loc></url><url><loc>https://espa-atocadayhundida.pages.dev/tags/</loc></url></urlset>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2025-10-27T00:25:00+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/</loc>
+    <lastmod>2025-10-27T00:25:00+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/prueba/</loc>
+    <lastmod>2025-10-27T00:25:00+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/prueba1/</loc>
+    <lastmod>2025-10-27T00:25:00+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2025-10-27T00:25:00+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/video/</loc>
+    <lastmod>2025-10-27T00:25:00+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/legal/aviso-legal/</loc>
+    <lastmod>2025-10-26T15:45:00+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/legal/contacto/</loc>
+    <lastmod>2025-10-26T15:45:00+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/legal/</loc>
+    <lastmod>2025-10-26T15:45:00+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/legal/politica-privacidad/</loc>
+    <lastmod>2025-10-26T15:45:00+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/analisis-01/</loc>
+  </url><url>
+    <loc>http://localhost:1313/posts/analisis-20251026223903/</loc>
+  </url><url>
+    <loc>http://localhost:1313/categories/</loc>
+  </url>
+</urlset>
