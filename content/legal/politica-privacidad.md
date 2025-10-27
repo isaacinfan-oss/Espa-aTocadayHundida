@@ -13,8 +13,8 @@ Esta Política de Privacidad explica cómo recopilamos, utilizamos y protegemos 
 
 ## 1. Responsable del tratamiento
 
-- **Responsable:** España Tocada y Hundida  
-- **Correo de contacto:** contacto@espanatocadayhundida.es  
+- **Responsable:** Isaac Infantes Muñoz  
+- **Correo de contacto:** espanatocadayhundida@gmail.com  
 - **Sitio web:** [https://espanatocadayhundida.es](https://espanatocadayhundida.es)
 
 ---
