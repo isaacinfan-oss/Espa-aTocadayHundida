@@ -77,7 +77,7 @@ Tienes derecho a:
 - Oponerte o limitar su tratamiento.  
 - Solicitar la portabilidad de tus datos.
 
-Para ejercer estos derechos, envía una solicitud al correo **contacto@espanatocadayhundida.es**, indicando el asunto “Protección de Datos”.
+Para ejercer estos derechos, envía una solicitud al correo **espanatocadayhundida@gmail.com**, indicando el asunto “Protección de Datos”.
 
 ---
 
