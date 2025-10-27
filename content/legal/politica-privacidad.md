@@ -4,7 +4,7 @@ draft = false
 layout = "single"
 +++
 
-# Política de Privacidad
+---
 
 En **España Tocada y Hundida** respetamos y protegemos la privacidad de nuestros usuarios.  
 Esta Política de Privacidad explica cómo recopilamos, utilizamos y protegemos tu información personal conforme al **Reglamento (UE) 2016/679 (RGPD)** y la **Ley Orgánica 3/2018 (LOPDGDD)**.
