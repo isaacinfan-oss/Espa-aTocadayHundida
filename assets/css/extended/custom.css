@@ -1,29 +1,23 @@
+/* === FOOTER PERSONALIZADO === */
 .footer {
   text-align: center;
-  margin-top: 3rem;
-  font-size: 0.9rem;
-  opacity: 0.8;
+  margin-top: 2rem;
+  font-size: 0.85rem;       /* ligeramente más legible */
+  opacity: 0.9;             /* más contraste general */
+  letter-spacing: 0.02em;
 }
 
 .footer a {
   color: inherit;
   text-decoration: none;
-  margin: 0 0.3rem;
+  margin: 0 0.4rem;
+  border-bottom: 1px solid currentColor;  /* línea visible por defecto */
+  transition: border-color 0.2s ease, opacity 0.2s ease;
+  opacity: 0.85;
 }
 
 .footer a:hover {
-  text-decoration: underline;
-}
-
-.top-link {
-  visibility: hidden;
-  opacity: 0;
-  position: fixed;
-  bottom: 1.5rem;
-  right: 1.5rem;
-  background: var(--content-bg);
-  border-radius: 50%;
-  padding: 0.4rem;
-  transition: opacity 0.3s ease;
+  opacity: 1;                                /* texto más nítido */
+  border-bottom-color: rgba(0, 0, 0, 0.8);   /* línea más oscura */
 }
 
