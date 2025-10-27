@@ -38,3 +38,6 @@ theme = 'PaperMod'
   name = "Contacto"
   url = "/contacto/"
 
+[markup.goldmark.renderer]
+  unsafe = true
+

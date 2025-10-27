@@ -1,19 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
-  <channel>
-    <title>España Tocada y Hundida</title>
-    <link>https://espa-atocadayhundida.pages.dev/</link>
-    <description>Recent content on España Tocada y Hundida</description>
-    <generator>Hugo -- 0.152.2</generator>
-    <language>es-es</language>
-    <lastBuildDate>Sun, 26 Oct 2025 15:45:00 +0200</lastBuildDate>
-    <atom:link href="https://espa-atocadayhundida.pages.dev/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Aviso Legal</title>
-      <link>https://espa-atocadayhundida.pages.dev/legal/aviso-legal/</link>
-      <pubDate>Sun, 26 Oct 2025 15:45:00 +0200</pubDate>
-      <guid>https://espa-atocadayhundida.pages.dev/legal/aviso-legal/</guid>
-      <description>&lt;h2 id=&#34;aviso-legal&#34;&gt;Aviso Legal&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>España Tocada y Hundida</title><link>https://espa-atocadayhundida.pages.dev/</link><description>Recent content on España Tocada y Hundida</description><generator>Hugo -- 0.152.2</generator><language>es-es</language><lastBuildDate>Sun, 26 Oct 2025 15:45:00 +0200</lastBuildDate><atom:link href="https://espa-atocadayhundida.pages.dev/index.xml" rel="self" type="application/rss+xml"/><item><title>Aviso Legal</title><link>https://espa-atocadayhundida.pages.dev/legal/aviso-legal/</link><pubDate>Sun, 26 Oct 2025 15:45:00 +0200</pubDate><guid>https://espa-atocadayhundida.pages.dev/legal/aviso-legal/</guid><description>&lt;h2 id="aviso-legal"&gt;Aviso Legal&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;1. Datos Identificativos del Titular&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Nombre y Apellidos:&lt;/strong&gt; Isaac Infantes Muñoz&lt;/li&gt;
@@ -23,35 +8,14 @@
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;2. Propiedad Intelectual&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;El titular se reserva todos los derechos de propiedad intelectual sobre el contenido de esta web, incluyendo, pero no limitándose a, textos, gráficos, imágenes y código fuente.&lt;/p&gt;
-&lt;hr&gt;</description>
-    </item>
-    <item>
-      <title>Contacto</title>
-      <link>https://espa-atocadayhundida.pages.dev/legal/contacto/</link>
-      <pubDate>Sun, 26 Oct 2025 15:45:00 +0200</pubDate>
-      <guid>https://espa-atocadayhundida.pages.dev/legal/contacto/</guid>
-      <description>&lt;h2 id=&#34;contacto&#34;&gt;Contacto&lt;/h2&gt;
+&lt;hr&gt;</description></item><item><title>Contacto</title><link>https://espa-atocadayhundida.pages.dev/legal/contacto/</link><pubDate>Sun, 26 Oct 2025 15:45:00 +0200</pubDate><guid>https://espa-atocadayhundida.pages.dev/legal/contacto/</guid><description>&lt;h2 id="contacto"&gt;Contacto&lt;/h2&gt;
 &lt;p&gt;Para cualquier consulta, reclamación o comunicación, puede contactar con el titular del sitio a través del siguiente medio:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Correo electrónico:&lt;/strong&gt; &lt;a href=&#34;mailto:contacto@espanatocadayhundida.es&#34;&gt;contacto@espanatocadayhundida.es&lt;/a&gt; (Por favor, asegúrese de que esta dirección de correo electrónico está activa).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Correo electrónico:&lt;/strong&gt; &lt;a href="mailto:contacto@espanatocadayhundida.es"&gt;contacto@espanatocadayhundida.es&lt;/a&gt; (Por favor, asegúrese de que esta dirección de correo electrónico está activa).&lt;/li&gt;
 &lt;/ul&gt;
-&lt;hr&gt;</description>
-    </item>
-    <item>
-      <title>Política de Privacidad</title>
-      <link>https://espa-atocadayhundida.pages.dev/legal/politica-privacidad/</link>
-      <pubDate>Sun, 26 Oct 2025 15:45:00 +0200</pubDate>
-      <guid>https://espa-atocadayhundida.pages.dev/legal/politica-privacidad/</guid>
-      <description>&lt;h2 id=&#34;política-de-privacidad&#34;&gt;Política de Privacidad&lt;/h2&gt;
+&lt;hr&gt;</description></item><item><title>Política de Privacidad</title><link>https://espa-atocadayhundida.pages.dev/legal/politica-privacidad/</link><pubDate>Sun, 26 Oct 2025 15:45:00 +0200</pubDate><guid>https://espa-atocadayhundida.pages.dev/legal/politica-privacidad/</guid><description>&lt;h2 id="política-de-privacidad"&gt;Política de Privacidad&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;IMPORTANTE:&lt;/strong&gt; Este texto es un recordatorio. DEBE reemplazar esta sección con una política de privacidad completa que mencione el uso de Google Adsense, Google Analytics y cookies, y cómo se gestionan los datos.&lt;/p&gt;
-&lt;hr&gt;</description>
-    </item>
-    <item>
-      <title></title>
-      <link>https://espa-atocadayhundida.pages.dev/posts/analisis-01/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://espa-atocadayhundida.pages.dev/posts/analisis-01/</guid>
-      <description>&lt;p&gt;draft = false
+&lt;hr&gt;</description></item><item><title/><link>https://espa-atocadayhundida.pages.dev/posts/analisis-01/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://espa-atocadayhundida.pages.dev/posts/analisis-01/</guid><description>&lt;p&gt;draft = false
 date = &amp;ldquo;2025-10-26T22:55:08+02:00&amp;rdquo;
 title = &amp;ldquo;Título temporal&amp;rdquo;
 +++
@@ -74,14 +38,7 @@ title = &amp;ldquo;Título temporal&amp;rdquo;
 +++
 title = &amp;ldquo;Título por defecto&amp;rdquo;
 date = 2025-10-26T22:49:17+02:00
-draft = false&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title></title>
-      <link>https://espa-atocadayhundida.pages.dev/posts/analisis-20251026223903/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://espa-atocadayhundida.pages.dev/posts/analisis-20251026223903/</guid>
-      <description>&lt;p&gt;draft = false
+draft = false&lt;/p&gt;</description></item><item><title/><link>https://espa-atocadayhundida.pages.dev/posts/analisis-20251026223903/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://espa-atocadayhundida.pages.dev/posts/analisis-20251026223903/</guid><description>&lt;p&gt;draft = false
 date = &amp;ldquo;2025-10-26T22:55:08+02:00&amp;rdquo;
 title = &amp;ldquo;Título temporal&amp;rdquo;
 +++
@@ -104,7 +61,4 @@ title = &amp;ldquo;Título temporal&amp;rdquo;
 +++
 title = &amp;ldquo;Título por defecto&amp;rdquo;
 date = 2025-10-26T22:49:17+02:00
-draft = false&lt;/p&gt;</description>
-    </item>
-  </channel>
-</rss>
+draft = false&lt;/p&gt;</description></item></channel></rss>
