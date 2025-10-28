@@ -4,7 +4,7 @@ title = 'España Tocada y Hundida'
 theme = 'PaperMod'
 
 [params]
-  mainSections = ["posts", "legal"]
+  mainSections = ["posts"]
   defaultTheme = 'auto'
   ShowThemeButton = true
   disableSpecial1stPost = false
