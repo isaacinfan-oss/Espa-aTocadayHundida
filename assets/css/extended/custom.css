@@ -21,3 +21,55 @@
   border-bottom-color: rgba(0, 0, 0, 0.8);   /* línea más oscura */
 }
 
+/* ---- ESTILO TARJETAS DE POSTS EN HOME ---- */
+
+.article-list article {
+  background: #fafafa;
+  border: 1px solid #e6e6e6;
+  border-radius: 14px;
+  padding: 1.5rem 2rem;
+  margin-bottom: 1.5rem;
+  transition: all 0.3s ease;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.04);
+}
+
+/* Hover con efecto sutil */
+.article-list article:hover {
+  background: #ffffff;
+  border-color: #d0d0d0;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+  transform: translateY(-3px);
+}
+
+/* Título del post */
+.article-list h2 {
+  font-size: 1.4rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+/* Extracto */
+.article-list p {
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 0.6rem;
+}
+
+/* Fecha más elegante */
+.article-list .post-meta {
+  color: #888;
+  font-size: 0.9rem;
+  margin-top: 0.5rem;
+}
+
+/* Pequeña animación de fade-in */
+.article-list article {
+  opacity: 0;
+  animation: fadeIn 0.6s ease forwards;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
