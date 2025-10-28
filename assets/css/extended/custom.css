@@ -1,104 +1,109 @@
-/* === FOOTER PERSONALIZADO === */
-.footer {
-  text-align: center;
-  margin-top: 2rem;
-  font-size: 0.85rem;
-  opacity: 0.9;
-  letter-spacing: 0.02em;
-}
-
-.footer a {
-  color: inherit;
-  text-decoration: none;
-  margin: 0 0.4rem;
-  border-bottom: 1px solid currentColor;
-  transition: border-color 0.2s ease, opacity 0.2s ease;
-  opacity: 0.85;
-}
-
-.footer a:hover {
-  opacity: 1;
-  border-bottom-color: rgba(0, 0, 0, 0.8);
-}
-
-/* === TARJETAS DE POSTS EN HOME === */
-.article-list {
-  display: flex;
-  flex-direction: column;
-  gap: 1.5rem;
-}
-
-.article-list article {
-  background: linear-gradient(145deg, #ffffff, #f5f5f5);
-  border: 1px solid #e4e4e4;
-  border-radius: 16px;
-  padding: 1.5rem 2rem;
-  transition: all 0.3s ease;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.05);
-  opacity: 0;
-  animation: fadeIn 0.6s ease forwards;
-}
-
-/* Hover efecto elegante */
-.article-list article:hover {
-  background: #ffffff;
-  border-color: #d6d6d6;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
-  transform: translateY(-3px);
-}
-
-/* === TÍTULO DE POST === */
-.article-list h2 {
-  font-size: 1.5rem;
-  font-weight: 800;
-  margin-bottom: 0.5rem;
-  color: #d71920; /* rojo institucional del canal */
-  text-transform: uppercase;
-}
-
-/* === EXTRACTO DEL POST === */
-.article-list p {
-  color: #444;
-  line-height: 1.65;
-  margin-bottom: 0.8rem;
-  font-size: 1.05rem;
-}
-
-/* === META / FECHA === */
-.article-list .post-meta {
-  color: #777;
-  font-size: 0.9rem;
-  margin-top: 0.6rem;
-}
-
-/* === EFECTO FADE-IN === */
-@keyframes fadeIn {
-  from { opacity: 0; transform: translateY(8px); }
-  to { opacity: 1; transform: translateY(0); }
-}
-
 /* === COLORES DEL CANAL === */
 :root {
   --color-rojo: #d71920;
-  --color-gris-oscuro: #2c2c2c;
-  --color-fondo: #fafafa;
-  --color-acento: #d71920;
+  --color-fondo: #f7f7f7;
   --color-texto: #222;
+  --color-borde: #e2e2e2;
 }
 
-/* Aplicar colores globales */
+/* === FONDO GLOBAL === */
 body {
-  background-color: var(--color-fondo);
+  background: var(--color-fondo);
   color: var(--color-texto);
 }
 
-/* Enlaces del sitio */
+/* === ENLACES Y TITULOS === */
 a {
-  color: var(--color-acento);
+  color: var(--color-rojo);
   text-decoration: none;
   transition: color 0.2s ease;
 }
 a:hover {
   color: #a10f15;
+}
+
+/* === TARJETAS DE POSTS (HOME) === */
+.post-entry {
+  background: #fff;
+  border: 1px solid var(--color-borde);
+  border-radius: 16px;
+  padding: 1.5rem 2rem;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.06);
+  transition: all 0.3s ease;
+  animation: fadeIn 0.6s ease forwards;
+}
+
+.post-entry:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+  border-color: #d6d6d6;
+}
+
+/* === TÍTULO DEL POST === */
+.entry-title {
+  font-size: 1.6rem;
+  font-weight: 800;
+  color: var(--color-rojo);
+  text-transform: uppercase;
+  margin-bottom: 0.5rem;
+}
+
+/* === CONTENIDO/EXTRACTO === */
+.entry-content {
+  font-size: 1.05rem;
+  color: #444;
+  line-height: 1.6;
+  margin-bottom: 0.8rem;
+}
+
+/* === FECHA Y META === */
+.post-meta {
+  font-size: 0.9rem;
+  color: #777;
+}
+
+/* === EFECTO FADE-IN === */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* === FOOTER === */
+.footer {
+  text-align: center;
+  margin-top: 3rem;
+  font-size: 0.85rem;
+  opacity: 0.9;
+}
+
+.footer a {
+  color: inherit;
+  margin: 0 0.4rem;
+  border-bottom: 1px solid currentColor;
+  opacity: 0.7;
+  transition: 0.2s;
+}
+.footer a:hover {
+  opacity: 1;
+  border-bottom-color: var(--color-rojo);
+}
+
+/* === FRANJA ROJA IZQUIERDA TIPO “NOTICIA” === */
+.post-entry::before {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 6px;
+  background: var(--color-rojo);
+  border-top-left-radius: 16px;
+  border-bottom-left-radius: 16px;
+}
+.post-entry {
+  position: relative;
+  overflow: hidden;
 }
 
