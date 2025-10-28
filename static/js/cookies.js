@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded", function () {
       <p style="margin: 0 0 8px 0;">
         Usamos cookies para mejorar tu experiencia. 
         Al continuar navegando, aceptas nuestra 
-        <a href="/legal/cookies" style="color: #4ea1ff; text-decoration: underline;">Política de Cookies</a>.
+        <a href="/legal/politica-de-cookies" style="color: #4ea1ff; text-decoration: underline;">Política de Cookies</a>.
       </p>
       <button id="accept-cookies" style="
         background: #4ea1ff;
