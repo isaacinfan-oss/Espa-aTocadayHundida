@@ -11,13 +11,16 @@ theme = 'PaperMod'
   ShowBreadCrumbs = false
   ShowShareButtons = false
   ShowCodeCopyButtons = false
-  disableSpecial1stPost = true
+  disableSpecial1stPost = false
   disableScrollToTop = false
   disableThemeToggle = false
   hideFooter = false
   showPoweredBy = false
   profileMode = { enabled = false }  # 👈 desactiva totalmente el bloque central
   homeInfoParams = {}                # 👈 asegura que no se muestre contenido
+
+[params.home]
+  layout = "list"
 
 # 🚫 Sin menú
 [menu]
