@@ -4,6 +4,7 @@ title = 'España Tocada y Hundida'
 theme = 'PaperMod'
 
 [params]
+  mainSections = ["posts"]
   defaultTheme = 'auto'
   ShowThemeButton = true
   ShowReadingTime = false
@@ -21,9 +22,6 @@ theme = 'PaperMod'
 
 [params.home]
   layout = "list"
-
-[params]
-  mainSections = ["posts"]
 
 # 🚫 Sin menú
 [menu]
