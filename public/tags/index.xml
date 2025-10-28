@@ -2,80 +2,80 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tags on España Tocada y Hundida</title>
-    <link>http://localhost:1313/tags/</link>
+    <link>https://espa-atocadayhundida.pages.dev/tags/</link>
     <description>Recent content in Tags on España Tocada y Hundida</description>
     <generator>Hugo -- 0.152.2</generator>
     <language>es-es</language>
     <lastBuildDate>Mon, 27 Oct 2025 18:00:00 +0200</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://espa-atocadayhundida.pages.dev/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Actualidad</title>
-      <link>http://localhost:1313/tags/actualidad/</link>
+      <link>https://espa-atocadayhundida.pages.dev/tags/actualidad/</link>
       <pubDate>Mon, 27 Oct 2025 18:00:00 +0200</pubDate>
-      <guid>http://localhost:1313/tags/actualidad/</guid>
+      <guid>https://espa-atocadayhundida.pages.dev/tags/actualidad/</guid>
       <description></description>
     </item>
     <item>
       <title>Crítica Política</title>
-      <link>http://localhost:1313/tags/cr%C3%ADtica-pol%C3%ADtica/</link>
+      <link>https://espa-atocadayhundida.pages.dev/tags/cr%C3%ADtica-pol%C3%ADtica/</link>
       <pubDate>Mon, 27 Oct 2025 18:00:00 +0200</pubDate>
-      <guid>http://localhost:1313/tags/cr%C3%ADtica-pol%C3%ADtica/</guid>
+      <guid>https://espa-atocadayhundida.pages.dev/tags/cr%C3%ADtica-pol%C3%ADtica/</guid>
       <description></description>
     </item>
     <item>
       <title>Información</title>
-      <link>http://localhost:1313/tags/informaci%C3%B3n/</link>
+      <link>https://espa-atocadayhundida.pages.dev/tags/informaci%C3%B3n/</link>
       <pubDate>Mon, 27 Oct 2025 18:00:00 +0200</pubDate>
-      <guid>http://localhost:1313/tags/informaci%C3%B3n/</guid>
+      <guid>https://espa-atocadayhundida.pages.dev/tags/informaci%C3%B3n/</guid>
       <description></description>
     </item>
     <item>
       <title>Nacho Abad</title>
-      <link>http://localhost:1313/tags/nacho-abad/</link>
+      <link>https://espa-atocadayhundida.pages.dev/tags/nacho-abad/</link>
       <pubDate>Mon, 27 Oct 2025 18:00:00 +0200</pubDate>
-      <guid>http://localhost:1313/tags/nacho-abad/</guid>
+      <guid>https://espa-atocadayhundida.pages.dev/tags/nacho-abad/</guid>
       <description></description>
     </item>
     <item>
       <title>Noticias</title>
-      <link>http://localhost:1313/tags/noticias/</link>
+      <link>https://espa-atocadayhundida.pages.dev/tags/noticias/</link>
       <pubDate>Mon, 27 Oct 2025 18:00:00 +0200</pubDate>
-      <guid>http://localhost:1313/tags/noticias/</guid>
+      <guid>https://espa-atocadayhundida.pages.dev/tags/noticias/</guid>
       <description></description>
     </item>
     <item>
       <title>Pilar Rahola</title>
-      <link>http://localhost:1313/tags/pilar-rahola/</link>
+      <link>https://espa-atocadayhundida.pages.dev/tags/pilar-rahola/</link>
       <pubDate>Mon, 27 Oct 2025 18:00:00 +0200</pubDate>
-      <guid>http://localhost:1313/tags/pilar-rahola/</guid>
+      <guid>https://espa-atocadayhundida.pages.dev/tags/pilar-rahola/</guid>
       <description></description>
     </item>
     <item>
       <title>Política</title>
-      <link>http://localhost:1313/tags/pol%C3%ADtica/</link>
+      <link>https://espa-atocadayhundida.pages.dev/tags/pol%C3%ADtica/</link>
       <pubDate>Mon, 27 Oct 2025 18:00:00 +0200</pubDate>
-      <guid>http://localhost:1313/tags/pol%C3%ADtica/</guid>
+      <guid>https://espa-atocadayhundida.pages.dev/tags/pol%C3%ADtica/</guid>
       <description></description>
     </item>
     <item>
       <title>Televisión</title>
-      <link>http://localhost:1313/tags/televisi%C3%B3n/</link>
+      <link>https://espa-atocadayhundida.pages.dev/tags/televisi%C3%B3n/</link>
       <pubDate>Mon, 27 Oct 2025 18:00:00 +0200</pubDate>
-      <guid>http://localhost:1313/tags/televisi%C3%B3n/</guid>
+      <guid>https://espa-atocadayhundida.pages.dev/tags/televisi%C3%B3n/</guid>
       <description></description>
     </item>
     <item>
       <title>Tertulia</title>
-      <link>http://localhost:1313/tags/tertulia/</link>
+      <link>https://espa-atocadayhundida.pages.dev/tags/tertulia/</link>
       <pubDate>Mon, 27 Oct 2025 18:00:00 +0200</pubDate>
-      <guid>http://localhost:1313/tags/tertulia/</guid>
+      <guid>https://espa-atocadayhundida.pages.dev/tags/tertulia/</guid>
       <description></description>
     </item>
     <item>
       <title>Zasca</title>
-      <link>http://localhost:1313/tags/zasca/</link>
+      <link>https://espa-atocadayhundida.pages.dev/tags/zasca/</link>
       <pubDate>Mon, 27 Oct 2025 18:00:00 +0200</pubDate>
-      <guid>http://localhost:1313/tags/zasca/</guid>
+      <guid>https://espa-atocadayhundida.pages.dev/tags/zasca/</guid>
       <description></description>
     </item>
   </channel>
