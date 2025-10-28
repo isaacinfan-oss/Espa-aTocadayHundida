@@ -1,18 +1,23 @@
-<div id="cookie-consent" style="position:fixed;bottom:15px;left:15px;right:15px;background:#222;color:#fff;padding:15px;border-radius:8px;display:none;z-index:9999;font-size:14px;box-shadow:0 2px 8px rgba(0,0,0,0.3)">
-  <p style="margin:0 0 10px 0;">🍪 Usamos cookies propias y de terceros para mejorar la experiencia y mostrar publicidad relevante (Google Adsense). <a href="/legal/politica-de-cookies" style="color:#ffd700;text-decoration:underline;">Leer más</a></p>
-  <button onclick="acceptCookies()" style="background:#ffd700;color:#000;padding:6px 12px;border:none;border-radius:4px;cursor:pointer;">Aceptar</button>
+<!-- layouts/partials/cookie-consent.html -->
+<div id="cookie-banner" style="position:fixed;bottom:20px;left:20px;right:20px;max-width:900px;margin:auto;background:#fff;padding:16px;border-radius:10px;box-shadow:0 4px 15px rgba(0,0,0,0.1);display:none;z-index:9999;font-family:sans-serif;">
+  <p style="margin:0 0 8px 0;font-size:15px;color:#333;">
+    Usamos cookies propias y de terceros para mejorar tu experiencia y analizar el tráfico.
+    <a href="/legal/politica-de-cookies/" style="text-decoration:underline;color:#0066cc;">Más información</a>
+  </p>
+  <button id="accept-cookies" style="background:#0066cc;color:#fff;border:0;border-radius:6px;padding:8px 16px;cursor:pointer;">Aceptar</button>
 </div>
 
 <script>
-  document.addEventListener("DOMContentLoaded", function() {
-    const banner = document.getElementById("cookie-consent");
-    if (!localStorage.getItem("cookiesAccepted")) {
-      banner.style.display = "block";
-    }
-  });
-  function acceptCookies() {
-    localStorage.setItem("cookiesAccepted", "true");
-    document.getElementById("cookie-consent").style.display = "none";
+document.addEventListener("DOMContentLoaded",function(){
+  const banner=document.getElementById("cookie-banner");
+  const button=document.getElementById("accept-cookies");
+  if(!localStorage.getItem("cookiesAccepted")){
+    banner.style.display="block";
   }
+  button.addEventListener("click",()=>{
+    localStorage.setItem("cookiesAccepted",true);
+    banner.style.display="none";
+  });
+});
 </script>
 

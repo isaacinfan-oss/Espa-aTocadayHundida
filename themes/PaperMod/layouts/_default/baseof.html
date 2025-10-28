@@ -28,6 +28,6 @@
     {{ partialCached "footer.html" . .Layout .Kind (.Param "hideFooter") (.Param "showScrollToTop") -}}
 
     <!-- Banner de cookies -->
-    <script src="{{ "js/cookies.js" | relURL }}"></script>
+    <script src="{{ "js/cookies.js" | relURL }}" defer></script>
 </body>
 </html>
