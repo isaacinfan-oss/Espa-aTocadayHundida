@@ -22,6 +22,9 @@ theme = 'PaperMod'
 [params.home]
   layout = "list"
 
+[params]
+  mainSections = ["posts"]
+
 # 🚫 Sin menú
 [menu]
 
