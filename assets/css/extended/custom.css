@@ -2,8 +2,8 @@
 .footer {
   text-align: center;
   margin-top: 2rem;
-  font-size: 0.85rem;       /* ligeramente más legible */
-  opacity: 0.9;             /* más contraste general */
+  font-size: 0.85rem;
+  opacity: 0.9;
   letter-spacing: 0.02em;
 }
 
@@ -11,65 +11,94 @@
   color: inherit;
   text-decoration: none;
   margin: 0 0.4rem;
-  border-bottom: 1px solid currentColor;  /* línea visible por defecto */
+  border-bottom: 1px solid currentColor;
   transition: border-color 0.2s ease, opacity 0.2s ease;
   opacity: 0.85;
 }
 
 .footer a:hover {
-  opacity: 1;                                /* texto más nítido */
-  border-bottom-color: rgba(0, 0, 0, 0.8);   /* línea más oscura */
+  opacity: 1;
+  border-bottom-color: rgba(0, 0, 0, 0.8);
 }
 
-/* ---- ESTILO TARJETAS DE POSTS EN HOME ---- */
+/* === TARJETAS DE POSTS EN HOME === */
+.article-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
 
 .article-list article {
-  background: #fafafa;
-  border: 1px solid #e6e6e6;
-  border-radius: 14px;
+  background: linear-gradient(145deg, #ffffff, #f5f5f5);
+  border: 1px solid #e4e4e4;
+  border-radius: 16px;
   padding: 1.5rem 2rem;
-  margin-bottom: 1.5rem;
   transition: all 0.3s ease;
-  box-shadow: 0 1px 2px rgba(0,0,0,0.04);
-}
-
-/* Hover con efecto sutil */
-.article-list article:hover {
-  background: #ffffff;
-  border-color: #d0d0d0;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
-  transform: translateY(-3px);
-}
-
-/* Título del post */
-.article-list h2 {
-  font-size: 1.4rem;
-  font-weight: 700;
-  margin-bottom: 0.5rem;
-}
-
-/* Extracto */
-.article-list p {
-  color: #555;
-  line-height: 1.6;
-  margin-bottom: 0.6rem;
-}
-
-/* Fecha más elegante */
-.article-list .post-meta {
-  color: #888;
-  font-size: 0.9rem;
-  margin-top: 0.5rem;
-}
-
-/* Pequeña animación de fade-in */
-.article-list article {
+  box-shadow: 0 1px 3px rgba(0,0,0,0.05);
   opacity: 0;
   animation: fadeIn 0.6s ease forwards;
 }
 
+/* Hover efecto elegante */
+.article-list article:hover {
+  background: #ffffff;
+  border-color: #d6d6d6;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  transform: translateY(-3px);
+}
+
+/* === TÍTULO DE POST === */
+.article-list h2 {
+  font-size: 1.5rem;
+  font-weight: 800;
+  margin-bottom: 0.5rem;
+  color: #d71920; /* rojo institucional del canal */
+  text-transform: uppercase;
+}
+
+/* === EXTRACTO DEL POST === */
+.article-list p {
+  color: #444;
+  line-height: 1.65;
+  margin-bottom: 0.8rem;
+  font-size: 1.05rem;
+}
+
+/* === META / FECHA === */
+.article-list .post-meta {
+  color: #777;
+  font-size: 0.9rem;
+  margin-top: 0.6rem;
+}
+
+/* === EFECTO FADE-IN === */
 @keyframes fadeIn {
   from { opacity: 0; transform: translateY(8px); }
   to { opacity: 1; transform: translateY(0); }
+}
+
+/* === COLORES DEL CANAL === */
+:root {
+  --color-rojo: #d71920;
+  --color-gris-oscuro: #2c2c2c;
+  --color-fondo: #fafafa;
+  --color-acento: #d71920;
+  --color-texto: #222;
+}
+
+/* Aplicar colores globales */
+body {
+  background-color: var(--color-fondo);
+  color: var(--color-texto);
+}
+
+/* Enlaces del sitio */
+a {
+  color: var(--color-acento);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+a:hover {
+  color: #a10f15;
 }
 
