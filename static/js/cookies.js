@@ -1,29 +1,42 @@
-window.addEventListener("load", function () {
-  if (!localStorage.getItem("cookies-accepted")) {
+document.addEventListener("DOMContentLoaded", function() {
+  const existingBanner = document.getElementById("cookie-banner");
+  if (existingBanner) return; // evita duplicados
+
+  if (!localStorage.getItem("cookiesAccepted")) {
     const banner = document.createElement("div");
-    banner.innerHTML = `
-      <div style="
-        position: fixed;
-        bottom: 0;
-        width: 100%;
-        background: #222;
-        color: #fff;
-        text-align: center;
-        padding: 1rem;
-        font-size: 14px;
-        z-index: 9999;
-      ">
-        🍪 Usamos cookies para mejorar tu experiencia.
-        <button id="acceptCookies" style="margin-left: 10px; padding: 5px 10px; background:#4caf50; border:none; color:white; cursor:pointer;">
-          Aceptar
-        </button>
-      </div>
+    banner.id = "cookie-banner";
+    banner.style.cssText = `
+      position: fixed;
+      bottom: 20px;
+      left: 20px;
+      right: 20px;
+      max-width: 900px;
+      margin: auto;
+      background: #fff;
+      padding: 16px;
+      border-radius: 10px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+      z-index: 9999;
+      font-family: sans-serif;
+      text-align: center;
     `;
+
+    banner.innerHTML = `
+      <p style="margin:0 0 8px 0;font-size:15px;color:#333;">
+        Usamos cookies propias y de terceros para mejorar tu experiencia y analizar el tráfico.
+        <a href="/legal/politica-de-cookies/" style="color:#0066cc;text-decoration:underline;">Más información</a>
+      </p>
+      <button id="accept-cookies" style="background:#0066cc;color:#fff;border:0;border-radius:6px;padding:8px 16px;cursor:pointer;">
+        Aceptar
+      </button>
+    `;
+
     document.body.appendChild(banner);
-    document.getElementById("acceptCookies").onclick = () => {
-      localStorage.setItem("cookies-accepted", "true");
+
+    document.getElementById("accept-cookies").addEventListener("click", () => {
+      localStorage.setItem("cookiesAccepted", true);
       banner.remove();
-    };
+    });
   }
 });
 
