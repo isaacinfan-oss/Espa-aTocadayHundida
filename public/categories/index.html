@@ -117,9 +117,9 @@
 <footer class="footer">
   <p>
     © 2025 España Tocada y Hundida ·
-    <a href="/aviso-legal/">Aviso Legal</a> ·
-    <a href="/politica-de-privacidad/">Política de Privacidad</a> ·
-    <a href="/contacto/">Contacto</a>
+    <a href="/legal/aviso-legal/">Aviso Legal</a> ·
+    <a href="/legal/politica-privacidad/">Política de Privacidad</a> ·
+    <a href="/legal/contacto/">Contacto</a>
   </p>
 </footer>
 <a href="#top" aria-label="Volver arriba" title="Volver arriba" class="top-link" id="top-link" accesskey="g">
@@ -168,3 +168,23 @@
 </body>
 
 </html>
+
+<div id="cookie-banner" style="display:none; position:fixed; bottom:0; left:0; right:0; background:rgba(0,0,0,0.85); color:#fff; padding:15px; text-align:center; font-size:14px; z-index:9999;">
+  Este sitio utiliza cookies propias y de terceros (como Google Analytics y AdSense) para analizar la navegación y mostrar publicidad personalizada. 
+  Al continuar navegando, aceptas su uso. 
+  <a href="/legal/politica-de-cookies" style="color:#00bfff; text-decoration:underline;">Más información</a>
+  <button id="accept-cookies" style="margin-left:15px; background:#00bfff; border:none; color:white; padding:6px 12px; border-radius:4px; cursor:pointer;">Aceptar</button>
+</div>
+
+<script>
+(function() {
+  if (!localStorage.getItem("cookies-accepted")) {
+    document.getElementById("cookie-banner").style.display = "block";
+  }
+  document.getElementById("accept-cookies").addEventListener("click", function() {
+    localStorage.setItem("cookies-accepted", "true");
+    document.getElementById("cookie-banner").style.display = "none";
+  });
+})();
+</script>
+
