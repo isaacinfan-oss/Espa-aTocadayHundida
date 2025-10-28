@@ -1,4 +1,4 @@
-baseURL = 'https://espa-atocadayhundida.pages.dev/'
+baseURL = 'https://espanatocadayhundida.es/'
 languageCode = 'es-es'
 title = 'España Tocada y Hundida'
 theme = 'PaperMod'
@@ -28,15 +28,15 @@ theme = 'PaperMod'
 
 [[params.footer.links]]
   name = "Aviso Legal"
-  url = "/aviso-legal/"
+  url = "/legal/aviso-legal/"
 
 [[params.footer.links]]
   name = "Política de Privacidad"
-  url = "/politica-de-privacidad/"
+  url = "/legal/politica-privacidad/"
 
 [[params.footer.links]]
   name = "Contacto"
-  url = "/contacto/"
+  url = "/legal/contacto/"
 
 [markup.goldmark.renderer]
   unsafe = true
