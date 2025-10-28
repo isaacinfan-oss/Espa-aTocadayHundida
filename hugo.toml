@@ -17,11 +17,8 @@ theme = 'PaperMod'
   disableThemeToggle = false
   hideFooter = false
   showPoweredBy = false
-  profileMode = { enabled = false }  # 👈 desactiva totalmente el bloque central
-  homeInfoParams = {}                # 👈 asegura que no se muestre contenido
-
-[params.home]
-  layout = "list"
+  profileMode = { enabled = false }  # 👈 desactiva el bloque central
+  homeInfoParams = {}                # 👈 asegura que no se muestre texto “Bienvenidos”
 
 # 🚫 Sin menú
 [menu]
