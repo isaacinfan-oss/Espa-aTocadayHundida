@@ -4,20 +4,12 @@ title = 'España Tocada y Hundida'
 theme = 'PaperMod'
 
 [params]
-  mainSections = ["posts"]
+  mainSections = ["posts", "legal"]
   defaultTheme = 'auto'
   ShowThemeButton = true
-  ShowReadingTime = false
-  ShowPostNavLinks = false
-  ShowBreadCrumbs = false
-  ShowShareButtons = false
-  ShowCodeCopyButtons = false
   disableSpecial1stPost = false
-  disableScrollToTop = false
-  disableThemeToggle = false
-  hideFooter = false
-  showPoweredBy = false
-  homeInfoParams = {}                # 👈 asegura que no se muestre texto “Bienvenidos”
+  profileMode = { enabled = false }
+  homeInfoParams = {}
 
 # 🚫 Sin menú
 [menu]
