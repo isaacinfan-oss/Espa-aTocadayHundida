@@ -14,8 +14,8 @@ ignoreLogs = ["warning-goldmark-raw-html"]
 [params]
   # --- Ajustes de PaperMod (fusionados) ---
   mainSections = ["posts"]
-  defaultTheme = "dark"
-  ShowThemeButton = true
+  defaultTheme = "light"
+  ShowThemeButton = false
   disableSpecial1stPost = false
   profileMode = { enabled = false }
   homeInfoParams = {}
