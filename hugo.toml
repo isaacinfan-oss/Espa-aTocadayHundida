@@ -52,6 +52,11 @@ ignoreLogs = ["warning-goldmark-raw-html"]
   name = "Contacto"
   url = "/legal/contacto/"
 
+[sitemap]
+  # changefreq = "weekly" # Opcional
+  # priority = 0.5      # Opcional
+  disableKinds = ["taxonomy", "term"] # <-- ¡ESTO ES LO IMPORTANTE!
+
 # Habilitar HTML (de hugo.toml)
 [markup.goldmark.renderer]
   unsafe = true
