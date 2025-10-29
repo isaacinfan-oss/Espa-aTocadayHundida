@@ -23,7 +23,7 @@ ignoreLogs = ["warning-goldmark-raw-html"]
   # --- Ajustes de contenido (tomados de config.toml) ---
   ShowBreadCrumbs = false
   ShowReadingTime = true
-  ShowShareButtons = true
+  ShowShareButtons = false
   ShowPostNavLinks = true
 
 [outputs]
