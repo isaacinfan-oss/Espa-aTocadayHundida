@@ -1,6 +1,6 @@
 # Archivo de configuración único y fusionado (v2 - Corregido)
 baseURL = "https://espanatocadayhundida.es/"
-title = "España Tocada y Hundida | Clips y Crítica Política"
+title = "España Tocada y Hundida"
 languageCode = "es-es"
 theme = "PaperMod"
 enableRobotsTXT = true
@@ -14,8 +14,8 @@ ignoreLogs = ["warning-goldmark-raw-html"]
 [params]
   # --- Ajustes de PaperMod (fusionados) ---
   mainSections = ["posts"]
-  defaultTheme = "light"
-  ShowThemeButton = false
+  defaultTheme = "auto"
+  ShowThemeButton = true
   disableSpecial1stPost = false
   profileMode = { enabled = false }
   homeInfoParams = {}
