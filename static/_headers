@@ -1,0 +1,7 @@
+/*
+  Strict-Transport-Security: max-age=600; includeSubDomains; preload
+  X-Frame-Options: SAMEORIGIN
+  Referrer-Policy: strict-origin-when-cross-origin
+  Cross-Origin-Opener-Policy: same-origin
+  # Permissions-Policy: geolocation=(), midi=(), sync-xhr=(), microphone=(), camera=(), magnetometer=(), gyroscope=(), fullscreen=(self), payment=()
+  # Content-Security-Policy: frame-ancestors 'self';
