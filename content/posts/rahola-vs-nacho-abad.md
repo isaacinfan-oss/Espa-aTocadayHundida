@@ -3,6 +3,7 @@ title = "Rahola vs Nacho Abad: del catalán al zasca político que retrata al Go
 date = '2025-10-27T18:00:00+02:00'
 draft = false
 tags = ["Noticias", "Actualidad", "Información", "Política", "Crítica política", "Zasca", "Nacho Abad", "Pilar Rahola", "Tertulia", "Televisión"]
+summary = "Análisis: Del catalán al zasca, o cómo un debate parlamentario se coló en el plató. El momento entre Pilar Rahola y Nacho Abad que se volvió viral en redes no fue una simple chispa televisiva..."
 +++
 
 ## 🎥 Video
