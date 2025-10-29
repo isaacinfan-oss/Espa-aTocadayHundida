@@ -1,20 +1,42 @@
-baseURL = 'https://espanatocadayhundida.es/'
-languageCode = 'es-es'
-title = 'España Tocada y Hundida'
-theme = 'PaperMod'
+# Archivo de configuración único y fusionado (v2 - Corregido)
+baseURL = "https://espanatocadayhundida.es/"
+title = "España Tocada y Hundida | Clips y Crítica Política"
+languageCode = "es-es"
+theme = "PaperMod"
+enableRobotsTXT = true
+ignoreLogs = ["warning-goldmark-raw-html"]
+
+# --- ¡AQUÍ ESTÁ EL CAMBIO! ---
+# 'paginate = 10' se ha movido y renombrado
+[pagination]
+  pagerSize = 10
 
 [params]
+  # --- Ajustes de PaperMod (fusionados) ---
   mainSections = ["posts"]
-  defaultTheme = 'auto'
+  defaultTheme = "dark"
   ShowThemeButton = true
   disableSpecial1stPost = false
   profileMode = { enabled = false }
   homeInfoParams = {}
 
-# 🚫 Sin menú
+  # --- Ajustes de contenido (tomados de config.toml) ---
+  ShowBreadCrumbs = false
+  ShowReadingTime = true
+  ShowShareButtons = true
+  ShowPostNavLinks = true
+
+[outputs]
+  home = ["HTML", "RSS"]
+  page = ["HTML"]
+
+[build]
+  publishDir = "public"
+
+# 🚫 Sin menú (de hugo.toml)
 [menu]
 
-# ⚓ Footer personalizado
+# ⚓ Footer personalizado (de hugo.toml)
 [params.footer]
   copyright = "© 2025 España Tocada y Hundida"
 
@@ -30,6 +52,6 @@ theme = 'PaperMod'
   name = "Contacto"
   url = "/legal/contacto/"
 
+# Habilitar HTML (de hugo.toml)
 [markup.goldmark.renderer]
   unsafe = true
-

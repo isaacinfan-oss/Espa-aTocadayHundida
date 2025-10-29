@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Legals on España Tocada y Hundida</title>
-    <link>https://espanatocadayhundida.es/legal/</link>
-    <description>Recent content in Legals on España Tocada y Hundida</description>
+    <title>Legals on España Tocada y Hundida | Clips y Crítica Política</title>
+    <link>http://localhost:1313/legal/</link>
+    <description>Recent content in Legals on España Tocada y Hundida | Clips y Crítica Política</description>
     <generator>Hugo -- 0.152.2</generator>
     <language>es-es</language>
-    <atom:link href="https://espanatocadayhundida.es/legal/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/legal/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Aviso Legal</title>
-      <link>https://espanatocadayhundida.es/legal/aviso-legal/</link>
+      <link>http://localhost:1313/legal/aviso-legal/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://espanatocadayhundida.es/legal/aviso-legal/</guid>
+      <guid>http://localhost:1313/legal/aviso-legal/</guid>
       <description>&lt;hr&gt;
 &lt;h2 id=&#34;1-datos-identificativos-del-titular&#34;&gt;1. Datos Identificativos del Titular&lt;/h2&gt;
 &lt;ul&gt;
@@ -29,9 +29,9 @@
     </item>
     <item>
       <title>Contacto</title>
-      <link>https://espanatocadayhundida.es/legal/contacto/</link>
+      <link>http://localhost:1313/legal/contacto/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://espanatocadayhundida.es/legal/contacto/</guid>
+      <guid>http://localhost:1313/legal/contacto/</guid>
       <description>&lt;hr&gt;
 &lt;p&gt;Para cualquier consulta, reclamación o comunicación, puede contactar con el titular del sitio a través del siguiente medio:&lt;/p&gt;
 &lt;ul&gt;
@@ -41,9 +41,9 @@
     </item>
     <item>
       <title>Política de Cookies</title>
-      <link>https://espanatocadayhundida.es/legal/politica-de-cookies/</link>
+      <link>http://localhost:1313/legal/politica-de-cookies/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://espanatocadayhundida.es/legal/politica-de-cookies/</guid>
+      <guid>http://localhost:1313/legal/politica-de-cookies/</guid>
       <description>&lt;hr&gt;
 &lt;h2 id=&#34;1-qué-son-las-cookies&#34;&gt;1. ¿Qué son las cookies?&lt;/h2&gt;
 &lt;p&gt;Las cookies son pequeños archivos de texto que los sitios web almacenan en el navegador del usuario para mejorar la experiencia, recopilar estadísticas o mostrar publicidad personalizada.&lt;/p&gt;
@@ -59,9 +59,9 @@
     </item>
     <item>
       <title>Política de Privacidad</title>
-      <link>https://espanatocadayhundida.es/legal/politica-privacidad/</link>
+      <link>http://localhost:1313/legal/politica-privacidad/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://espanatocadayhundida.es/legal/politica-privacidad/</guid>
+      <guid>http://localhost:1313/legal/politica-privacidad/</guid>
       <description>&lt;hr&gt;
 &lt;p&gt;En &lt;strong&gt;España Tocada y Hundida&lt;/strong&gt; respetamos y protegemos la privacidad de nuestros usuarios.&lt;br&gt;
 Esta Política de Privacidad explica cómo recopilamos, utilizamos y protegemos tu información personal conforme al &lt;strong&gt;Reglamento (UE) 2016/679 (RGPD)&lt;/strong&gt; y la &lt;strong&gt;Ley Orgánica 3/2018 (LOPDGDD)&lt;/strong&gt;.&lt;/p&gt;

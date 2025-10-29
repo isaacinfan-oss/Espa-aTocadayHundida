@@ -1,0 +1,89 @@
+/* === PALETA DE MARCA OFICIAL === */
+:root {
+  --color-rojo: #C3554E;
+  --color-rojo-hover: #a10f15; 
+  /* --color-amarillo-cita: #FOCE1F; -- Amarillo ya no se usa */
+  --color-negro-texto: #050404;
+  
+  --color-fondo-claro: #f7f7f7;
+  --color-fondo-tarjeta: #ffffff;
+  --color-borde: #e2e2e2;
+  
+  --color-fondo-oscuro: #1d1d1d;
+  --color-tarjeta-oscura: #2a2a2a;
+  --color-texto-oscuro: #e5e5e5; 
+  --color-borde-oscuro: #444;
+}
+
+/* * === FONDO GLOBAL === */
+body[data-theme="light"] { background: var(--color-fondo-claro); color: var(--color-negro-texto); }
+body[data-theme="dark"] { background: var(--color-fondo-oscuro); color: var(--color-texto-oscuro); }
+
+/* === TÍTULO PRINCIPAL (LOGO) - NEGRO/BLANCO === */
+.logo a, .logo a:hover { color: inherit !important; }
+
+/* * === TARJETAS DE POSTS (HOME) === */
+body.list .main .first-entry,
+body.list .main .post-entry {
+  position: relative; overflow: hidden; border: 1px solid var(--color-borde);
+  border-radius: 16px; padding: 1rem 1.5rem; margin-bottom: 1.5rem;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.06); transition: all 0.3s ease;
+  animation: fadeIn 0.6s ease forwards; background: var(--color-fondo-tarjeta);
+}
+/* FRANJA ROJA IZQUIERDA */
+body.list .main .first-entry::before,
+body.list .main .post-entry::before {
+  content: ""; display: block; position: absolute; left: 0; top: 0; bottom: 0;
+  width: 6px; background: var(--color-rojo); border-top-left-radius: 16px;
+  border-bottom-left-radius: 16px;
+}
+body.list .main .first-entry:hover,
+body.list .main .post-entry:hover { transform: translateY(-3px); box-shadow: 0 5px 15px rgba(0,0,0,0.08); }
+
+/* === TÍTULO TARJETAS (SIMPLE: NEGRO/BLANCO) === */
+body.list .main article .entry-hint-parent {
+  color: var(--color-negro-texto); background: none !important; padding: 0;
+  font-size: 1.6rem; font-weight: 800; text-transform: uppercase;
+  margin-bottom: 0.5rem; line-height: 1.4; position: static; z-index: auto; 
+}
+body.list .main article .entry-hint-parent a { color: var(--color-negro-texto); background: none !important; padding: 0 !important; }
+/* MODO OSCURO */
+body[data-theme="dark"].list .main article .entry-hint-parent,
+body[data-theme="dark"].list .main article .entry-hint-parent a { color: var(--color-texto-oscuro); }
+
+
+/* === TÍTULO ARTÍCULO (INTERIOR) - ESTILO POR DEFECTO === */
+/* NO añadimos ninguna regla aquí para que use el estilo del tema */
+
+
+/* === CONTENIDO ARTÍCULO - SIN BORDES AÑADIDOS === */
+.post-content { 
+  border: none !important; padding-left: 0 !important; padding-right: 0 !important; 
+  margin-left: 0 !important; margin-right: 0 !important; 
+}
+
+/* === CITAS (BLOCKQUOTE) - ESTILO POR DEFECTO === */
+.post-content blockquote {
+    border: none !important; 
+    background-color: transparent !important; 
+    padding: inherit !important; 
+    margin: inherit !important; 
+    color: inherit !important; 
+}
+
+
+/* === RESTO === */
+body.list .main .first-entry .entry-content,
+body.list .main .post-entry .entry-content { color: #444; }
+body.list .main .first-entry .entry-footer,
+body.list .main .post-entry .entry-footer { color: #777; }
+body[data-theme="dark"].list .main .first-entry,
+body[data-theme="dark"].list .main .post-entry { background: var(--color-tarjeta-oscura); border-color: var(--color-borde-oscuro); border-right: none !important; } 
+body[data-theme="dark"].list .main .first-entry .entry-content,
+body[data-theme="dark"].list .main .post-entry .entry-content { color: #ccc; }
+body[data-theme="dark"].list .main .first-entry .entry-footer,
+body[data-theme="dark"].list .main .post-entry .entry-footer { color: #888; }
+.footer { text-align: center; margin-top: 3rem; font-size: 0.85rem; }
+.footer a { margin: 0 0.4rem; border-bottom: 1px solid; opacity: 0.7; transition: 0.2s; color: var(--color-rojo); }
+.footer a:hover { opacity: 1; color: var(--color-rojo-hover); }
+@keyframes fadeIn { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }

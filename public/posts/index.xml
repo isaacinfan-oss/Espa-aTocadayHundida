@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Posts on España Tocada y Hundida</title>
-    <link>https://espanatocadayhundida.es/posts/</link>
-    <description>Recent content in Posts on España Tocada y Hundida</description>
+    <title>Posts on España Tocada y Hundida | Clips y Crítica Política</title>
+    <link>http://localhost:1313/posts/</link>
+    <description>Recent content in Posts on España Tocada y Hundida | Clips y Crítica Política</description>
     <generator>Hugo -- 0.152.2</generator>
     <language>es-es</language>
     <lastBuildDate>Mon, 27 Oct 2025 18:00:00 +0200</lastBuildDate>
-    <atom:link href="https://espanatocadayhundida.es/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Rahola vs Nacho Abad: del catalán al zasca político que retrata al Gobierno</title>
-      <link>https://espanatocadayhundida.es/posts/rahola-vs-nacho-abad/</link>
+      <link>http://localhost:1313/posts/rahola-vs-nacho-abad/</link>
       <pubDate>Mon, 27 Oct 2025 18:00:00 +0200</pubDate>
-      <guid>https://espanatocadayhundida.es/posts/rahola-vs-nacho-abad/</guid>
+      <guid>http://localhost:1313/posts/rahola-vs-nacho-abad/</guid>
       <description>&lt;h2 id=&#34;-video&#34;&gt;🎥 Video&lt;/h2&gt;
 &lt;p&gt;&lt;video
 controls
