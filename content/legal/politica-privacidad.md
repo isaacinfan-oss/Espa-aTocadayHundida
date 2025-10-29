@@ -1,6 +1,6 @@
 +++
 title = "Política de Privacidad"
-date: '2025-10-29'
+date = 'YYYY-MM-DD'
 draft = false
 layout = "single"
 +++
