@@ -24,7 +24,7 @@ ignoreLogs = ["warning-goldmark-raw-html"]
   ShowBreadCrumbs = false
   ShowReadingTime = false
   ShowShareButtons = false
-  ShowPostNavLinks = true
+  ShowPostNavLinks = false
 
 [outputs]
   home = ["HTML", "RSS"]

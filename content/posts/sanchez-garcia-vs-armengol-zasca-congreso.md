@@ -3,6 +3,7 @@ title = "Sánchez García vs Armengol: el zasca que dejó en evidencia a la pres
 date = '2025-10-29T08:00:00+02:00'
 draft = false
 description = "Análisis del enfrentamiento viral entre José María Sánchez García (Vox) y Francina Armengol en el Congreso, donde la presidenta fue corregida por el protocolo."
+summary = "Análisis del enfrentamiento viral entre José María Sánchez García (Vox) y Francina Armengol en el Congreso, donde la presidenta fue corregida por el protocolo."
 tags = ["Noticias", "Actualidad", "Información", "Política", "Crítica política", "zasca", "Vox", "Congreso", "Francina Armengol", "José María Sánchez García", "Debate parlamentario"]
 +++
 
