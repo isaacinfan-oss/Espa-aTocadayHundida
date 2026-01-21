@@ -14,7 +14,7 @@ Esta Política de Privacidad explica cómo recopilamos, utilizamos y protegemos 
 
 ## 1. Responsable del tratamiento
 
-- **Responsable:** Isaac Infantes Muñoz  
+- **Responsable:** I.Rubén Infantes Muñoz  
 - **Correo de contacto:** espanatocadayhundida@gmail.com  
 - **Sitio web:** [https://espanatocadayhundida.es](https://espanatocadayhundida.es)
 

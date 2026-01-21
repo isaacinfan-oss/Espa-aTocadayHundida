@@ -9,9 +9,8 @@ layout = "single"
 
 ## 1. Datos Identificativos del Titular
 
-- **Nombre y Apellidos:** Isaac Infantes Muñoz  
-- **NIF/DNI:** 77810521A  
-- **Domicilio:** Mar Mediterráneo 25, 8º Bajo A – 41500 Alcalá de Guadaíra (Sevilla), España  
+- **Nombre y Apellidos:** I.Rubén Infantes Muñoz  
+- **Domicilio:** Isla del caimán 45, sevilla  
 - **Actividad:** Crítica y análisis político digital  
 - **Correo electrónico:** espanatocadayhundida@gmail.com  
 - **Sitio web:** [https://espanatocadayhundida.es](https://espanatocadayhundida.es)
